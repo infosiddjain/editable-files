@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Third-party libraries copied in as-is (pdf.js, pdf-lib, mammoth, SheetJS, docx)
+    "public/vendor/**",
   ]),
 ]);
 

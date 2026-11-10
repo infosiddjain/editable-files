@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">EasyDocs</string>
+    <string name="title_activity_main">EasyDocs</string>
+    <string name="package_name">com.easydocs.app</string>
+    <string name="custom_url_scheme">com.easydocs.app</string>
+</resources>
