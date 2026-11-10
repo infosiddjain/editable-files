@@ -5,7 +5,6 @@ export const metadata: Metadata = {
   title: 'EasyDocs',
   description: 'Open, edit, save and share PDF, Word, Excel, CSV and text files. Everything stays on your device.',
   applicationName: 'EasyDocs',
-  manifest: '/manifest.webmanifest', // lets people install the website as an app
   icons: {
     icon: [{ url: '/icons/icon.svg', type: 'image/svg+xml' }],
     apple: '/icons/icon-192.png',
