@@ -6,8 +6,12 @@ export const metadata: Metadata = {
   description: 'Open, edit, save and share PDF, Word, Excel, CSV and text files. Everything stays on your device.',
   applicationName: 'EasyDocs',
   icons: {
-    icon: [{ url: '/icons/icon.svg', type: 'image/svg+xml' }],
-    apple: '/icons/icon-192.png',
+    icon: [
+      { url: '/favicon.ico', sizes: '16x16 32x32 48x48' },
+      { url: '/icons/icon.svg', type: 'image/svg+xml' },
+      { url: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
+    ],
+    apple: { url: '/icons/apple-touch-icon.png', sizes: '180x180' },
   },
   appleWebApp: { capable: true, title: 'EasyDocs', statusBarStyle: 'default' },
 };

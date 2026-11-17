@@ -1,10 +1,10 @@
 // Offline support for EasyDocs: keeps the app and its file libraries available without internet.
-const CACHE = 'easydocs-v1';
+const CACHE = 'easydocs-v2';
 const PRECACHE = [
   '/', '/manifest.webmanifest',
   '/vendor/pdf.min.js', '/vendor/pdf.worker.min.js', '/vendor/pdf-lib.min.js', '/vendor/mammoth.browser.min.js',
   '/vendor/xlsx.full.min.js', '/vendor/docx.umd.js',
-  '/icons/icon.svg', '/icons/icon-192.png', '/icons/icon-512.png',
+  '/favicon.ico', '/icons/icon.svg', '/icons/icon-192.png', '/icons/icon-512.png', '/icons/icon-maskable-512.png',
 ];
 
 self.addEventListener('install', (e) => {
